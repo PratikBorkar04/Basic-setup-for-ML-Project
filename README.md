@@ -1,5 +1,4 @@
-# Machine_learning_basic_project
-Clone git files
+# Basic setup for ML project
 '''
 git clone
 '''
@@ -9,21 +8,23 @@ Activate environment  '''conda activate venv/
 '''
 requirements:- '''pip install -r requirements.txt'''
 
-create flask file  
-
 add Files into git repository through local terminal :- '''git add {File name}'''
 
 commit this created files :- '''git commit -m "xyz"'''
 
 push git files to the repositories :-''' git push origin main'''
 
-git diff command
-
--e is use to install all the housing packages 
-
-fn + f12 use to check basic info of any function 
-
-
-To set pipeline in heroku we need 3 information
-
-create setup file :- python setup.py install
+# Steps :-
+    1. Create git Repository
+    2. Clone git Repository
+    3. Create and run Requirement.txt
+    4. Create app.py
+    5. Create Docker file
+    6. Create setup.py
+    7. Create housing:-
+        1.component
+        2.config
+        3.entity
+        4.exception
+        5.logger
+        6.pipeline
